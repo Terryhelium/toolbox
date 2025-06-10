@@ -1,0 +1,413 @@
+[ {
+  "name" : "maven-releases",
+  "format" : "maven2",
+  "type" : "hosted",
+  "url" : "http://192.168.31.217:8082/repository/maven-releases",
+  "size" : 0,
+  "attributes" : { }
+}, {
+  "name" : "maven-snapshots",
+  "format" : "maven2",
+  "type" : "hosted",
+  "url" : "http://192.168.31.217:8082/repository/maven-snapshots",
+  "size" : 0,
+  "attributes" : { }
+}, {
+  "name" : "maven-central",
+  "format" : "maven2",
+  "type" : "proxy",
+  "url" : "http://192.168.31.217:8082/repository/maven-central",
+  "size" : 0,
+  "attributes" : {
+    "proxy" : {
+      "remoteUrl" : "https://repo1.maven.org/maven2/"
+    }
+  }
+}, {
+  "name" : "maven-public",
+  "format" : "maven2",
+  "type" : "group",
+  "url" : "http://192.168.31.217:8082/repository/maven-public",
+  "size" : 0,
+  "attributes" : { }
+}, {
+  "name" : "nuget-hosted",
+  "format" : "nuget",
+  "type" : "hosted",
+  "url" : "http://192.168.31.217:8082/repository/nuget-hosted",
+  "size" : 0,
+  "attributes" : { }
+}, {
+  "name" : "nuget.org-proxy",
+  "format" : "nuget",
+  "type" : "proxy",
+  "url" : "http://192.168.31.217:8082/repository/nuget.org-proxy",
+  "size" : 0,
+  "attributes" : {
+    "proxy" : {
+      "remoteUrl" : "https://api.nuget.org/v3/index.json"
+    }
+  }
+}, {
+  "name" : "nuget-group",
+  "format" : "nuget",
+  "type" : "group",
+  "url" : "http://192.168.31.217:8082/repository/nuget-group",
+  "size" : 0,
+  "attributes" : { }
+}, {
+  "name" : "aliyun-pypi",
+  "format" : "pypi",
+  "type" : "proxy",
+  "url" : "http://192.168.31.217:8082/repository/aliyun-pypi",
+  "size" : 0,
+  "attributes" : {
+    "proxy" : {
+      "remoteUrl" : "https://mirrors.aliyun.com/pypi/simple/"
+    }
+  }
+}, {
+  "name" : "tsinghua-pypi",
+  "format" : "pypi",
+  "type" : "proxy",
+  "url" : "http://192.168.31.217:8082/repository/tsinghua-pypi",
+  "size" : 0,
+  "attributes" : {
+    "proxy" : {
+      "remoteUrl" : "https://pypi.tuna.tsinghua.edu.cn/simple/"
+    }
+  }
+}, {
+  "name" : "douban-pypi",
+  "format" : "pypi",
+  "type" : "proxy",
+  "url" : "http://192.168.31.217:8082/repository/douban-pypi",
+  "size" : 0,
+  "attributes" : {
+    "proxy" : {
+      "remoteUrl" : "https://pypi.doubanio.com/simple/"
+    }
+  }
+}, {
+  "name" : "taobao-npm",
+  "format" : "npm",
+  "type" : "proxy",
+  "url" : "http://192.168.31.217:8082/repository/taobao-npm",
+  "size" : 0,
+  "attributes" : {
+    "proxy" : {
+      "remoteUrl" : "https://registry.npmmirror.com/"
+    }
+  }
+}, {
+  "name" : "tencent-npm",
+  "format" : "npm",
+  "type" : "proxy",
+  "url" : "http://192.168.31.217:8082/repository/tencent-npm",
+  "size" : 0,
+  "attributes" : {
+    "proxy" : {
+      "remoteUrl" : "https://mirrors.cloud.tencent.com/npm/"
+    }
+  }
+}, {
+  "name" : "aliyun-maven",
+  "format" : "maven2",
+  "type" : "proxy",
+  "url" : "http://192.168.31.217:8082/repository/aliyun-maven",
+  "size" : 0,
+  "attributes" : {
+    "proxy" : {
+      "remoteUrl" : "https://maven.aliyun.com/repository/public/"
+    }
+  }
+}, {
+  "name" : "tencent-maven",
+  "format" : "maven2",
+  "type" : "proxy",
+  "url" : "http://192.168.31.217:8082/repository/tencent-maven",
+  "size" : 0,
+  "attributes" : {
+    "proxy" : {
+      "remoteUrl" : "https://mirrors.cloud.tencent.com/nexus/repository/maven-public/"
+    }
+  }
+}, {
+  "name" : "ubuntu-main",
+  "format" : "apt",
+  "type" : "proxy",
+  "url" : "http://192.168.31.217:8082/repository/ubuntu-main",
+  "size" : 0,
+  "attributes" : {
+    "proxy" : {
+      "remoteUrl" : "http://archive.ubuntu.com/ubuntu/"
+    }
+  }
+}, {
+  "name" : "ubuntu-aliyun",
+  "format" : "apt",
+  "type" : "proxy",
+  "url" : "http://192.168.31.217:8082/repository/ubuntu-aliyun",
+  "size" : 0,
+  "attributes" : {
+    "proxy" : {
+      "remoteUrl" : "http://mirrors.aliyun.com/ubuntu/"
+    }
+  }
+}, {
+  "name" : "debian-main",
+  "format" : "apt",
+  "type" : "proxy",
+  "url" : "http://192.168.31.217:8082/repository/debian-main",
+  "size" : 0,
+  "attributes" : {
+    "proxy" : {
+      "remoteUrl" : "http://deb.debian.org/debian/"
+    }
+  }
+}, {
+  "name" : "debian-aliyun",
+  "format" : "apt",
+  "type" : "proxy",
+  "url" : "http://192.168.31.217:8082/repository/debian-aliyun",
+  "size" : 0,
+  "attributes" : {
+    "proxy" : {
+      "remoteUrl" : "http://mirrors.aliyun.com/debian/"
+    }
+  }
+}, {
+  "name" : "centos-7-base",
+  "format" : "yum",
+  "type" : "proxy",
+  "url" : "http://192.168.31.217:8082/repository/centos-7-base",
+  "size" : 0,
+  "attributes" : {
+    "proxy" : {
+      "remoteUrl" : "http://mirror.centos.org/centos/7/os/x86_64/"
+    }
+  }
+}, {
+  "name" : "centos-7-aliyun",
+  "format" : "yum",
+  "type" : "proxy",
+  "url" : "http://192.168.31.217:8082/repository/centos-7-aliyun",
+  "size" : 0,
+  "attributes" : {
+    "proxy" : {
+      "remoteUrl" : "http://mirrors.aliyun.com/centos/7/os/x86_64/"
+    }
+  }
+}, {
+  "name" : "centos-8-base",
+  "format" : "yum",
+  "type" : "proxy",
+  "url" : "http://192.168.31.217:8082/repository/centos-8-base",
+  "size" : 0,
+  "attributes" : {
+    "proxy" : {
+      "remoteUrl" : "http://mirror.centos.org/centos/8-stream/BaseOS/x86_64/os/"
+    }
+  }
+}, {
+  "name" : "centos-8-aliyun",
+  "format" : "yum",
+  "type" : "proxy",
+  "url" : "http://192.168.31.217:8082/repository/centos-8-aliyun",
+  "size" : 0,
+  "attributes" : {
+    "proxy" : {
+      "remoteUrl" : "http://mirrors.aliyun.com/centos-stream/8/BaseOS/x86_64/os/"
+    }
+  }
+}, {
+  "name" : "epel-7",
+  "format" : "yum",
+  "type" : "proxy",
+  "url" : "http://192.168.31.217:8082/repository/epel-7",
+  "size" : 0,
+  "attributes" : {
+    "proxy" : {
+      "remoteUrl" : "http://download.fedoraproject.org/pub/epel/7/x86_64/"
+    }
+  }
+}, {
+  "name" : "epel-8",
+  "format" : "yum",
+  "type" : "proxy",
+  "url" : "http://192.168.31.217:8082/repository/epel-8",
+  "size" : 0,
+  "attributes" : {
+    "proxy" : {
+      "remoteUrl" : "http://download.fedoraproject.org/pub/epel/8/Everything/x86_64/"
+    }
+  }
+}, {
+  "name" : "rocky-8-baseos",
+  "format" : "yum",
+  "type" : "proxy",
+  "url" : "http://192.168.31.217:8082/repository/rocky-8-baseos",
+  "size" : 0,
+  "attributes" : {
+    "proxy" : {
+      "remoteUrl" : "https://mirrors.ustc.edu.cn/rocky/8/BaseOS/x86_64/os/"
+    }
+  }
+}, {
+  "name" : "rocky-9-baseos",
+  "format" : "yum",
+  "type" : "proxy",
+  "url" : "http://192.168.31.217:8082/repository/rocky-9-baseos",
+  "size" : 0,
+  "attributes" : {
+    "proxy" : {
+      "remoteUrl" : "https://mirrors.ustc.edu.cn/rocky/9/BaseOS/x86_64/os/"
+    }
+  }
+}, {
+  "name" : "almalinux-8-baseos",
+  "format" : "yum",
+  "type" : "proxy",
+  "url" : "http://192.168.31.217:8082/repository/almalinux-8-baseos",
+  "size" : 0,
+  "attributes" : {
+    "proxy" : {
+      "remoteUrl" : "https://mirrors.ustc.edu.cn/almalinux/8/BaseOS/x86_64/os/"
+    }
+  }
+}, {
+  "name" : "almalinux-9-baseos",
+  "format" : "yum",
+  "type" : "proxy",
+  "url" : "http://192.168.31.217:8082/repository/almalinux-9-baseos",
+  "size" : 0,
+  "attributes" : {
+    "proxy" : {
+      "remoteUrl" : "https://mirrors.ustc.edu.cn/almalinux/9/BaseOS/x86_64/os/"
+    }
+  }
+}, {
+  "name" : "epel-8-ustc",
+  "format" : "yum",
+  "type" : "proxy",
+  "url" : "http://192.168.31.217:8082/repository/epel-8-ustc",
+  "size" : 0,
+  "attributes" : {
+    "proxy" : {
+      "remoteUrl" : "https://mirrors.ustc.edu.cn/epel/8/Everything/x86_64/"
+    }
+  }
+}, {
+  "name" : "epel-9-ustc",
+  "format" : "yum",
+  "type" : "proxy",
+  "url" : "http://192.168.31.217:8082/repository/epel-9-ustc",
+  "size" : 0,
+  "attributes" : {
+    "proxy" : {
+      "remoteUrl" : "https://mirrors.ustc.edu.cn/epel/9/Everything/x86_64/"
+    }
+  }
+}, {
+  "name" : "docker-apt",
+  "format" : "apt",
+  "type" : "proxy",
+  "url" : "http://192.168.31.217:8082/repository/docker-apt",
+  "size" : 0,
+  "attributes" : {
+    "proxy" : {
+      "remoteUrl" : "https://mirrors.tuna.tsinghua.edu.cn/docker-ce/linux/debian/"
+    }
+  }
+}, {
+  "name" : "debian-security",
+  "format" : "apt",
+  "type" : "proxy",
+  "url" : "http://192.168.31.217:8082/repository/debian-security",
+  "size" : 0,
+  "attributes" : {
+    "proxy" : {
+      "remoteUrl" : "https://mirrors.tuna.tsinghua.edu.cn/debian-security/"
+    }
+  }
+}, {
+  "name" : "debian-bullseye",
+  "format" : "apt",
+  "type" : "proxy",
+  "url" : "http://192.168.31.217:8082/repository/debian-bullseye",
+  "size" : 0,
+  "attributes" : {
+    "proxy" : {
+      "remoteUrl" : "https://mirrors.tuna.tsinghua.edu.cn/debian/"
+    }
+  }
+}, {
+  "name" : "debian-bullseye-updates",
+  "format" : "apt",
+  "type" : "proxy",
+  "url" : "http://192.168.31.217:8082/repository/debian-bullseye-updates",
+  "size" : 0,
+  "attributes" : {
+    "proxy" : {
+      "remoteUrl" : "https://mirrors.tuna.tsinghua.edu.cn/debian/"
+    }
+  }
+}, {
+  "name" : "docker-hub",
+  "format" : "docker",
+  "type" : "proxy",
+  "url" : "http://192.168.31.217:8082/repository/docker-hub",
+  "size" : 0,
+  "attributes" : {
+    "proxy" : {
+      "remoteUrl" : "https://registry-1.docker.io"
+    }
+  }
+}, {
+  "name" : "docker-private",
+  "format" : "docker",
+  "type" : "hosted",
+  "url" : "http://192.168.31.217:8082/repository/docker-private",
+  "size" : 0,
+  "attributes" : { }
+}, {
+  "name" : "docker-group",
+  "format" : "docker",
+  "type" : "group",
+  "url" : "http://192.168.31.217:8082/repository/docker-group",
+  "size" : 0,
+  "attributes" : { }
+}, {
+  "name" : "docker-ce-proxy",
+  "format" : "yum",
+  "type" : "proxy",
+  "url" : "http://192.168.31.217:8082/repository/docker-ce-proxy",
+  "size" : 0,
+  "attributes" : {
+    "proxy" : {
+      "remoteUrl" : "https://download.docker.com/linux/fedora/41/x86_64/stable/"
+    }
+  }
+}, {
+  "name" : "fedora-baseos-proxy",
+  "format" : "yum",
+  "type" : "proxy",
+  "url" : "http://192.168.31.217:8082/repository/fedora-baseos-proxy",
+  "size" : 0,
+  "attributes" : {
+    "proxy" : {
+      "remoteUrl" : "https://mirror.sjtu.edu.cn/fedora/linux/releases/41/Everything/x86_64/os/"
+    }
+  }
+}, {
+  "name" : "fedora-updates-proxy",
+  "format" : "yum",
+  "type" : "proxy",
+  "url" : "http://192.168.31.217:8082/repository/fedora-updates-proxy",
+  "size" : 0,
+  "attributes" : {
+    "proxy" : {
+      "remoteUrl" : "https://mirror.sjtu.edu.cn/fedora/linux/updates/41/Everything/x86_64/"
+    }
+  }
+} ]

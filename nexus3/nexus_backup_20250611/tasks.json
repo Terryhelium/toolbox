@@ -1,0 +1,85 @@
+{
+  "items" : [ {
+    "id" : "053af16b-ddce-4ccd-a77c-333e076dd535",
+    "name" : "Cleanup unused yum blobs from nexus",
+    "type" : "assetBlob.cleanup",
+    "message" : "Cleanup unused yum blobs from nexus",
+    "currentState" : "WAITING",
+    "lastRunResult" : "OK",
+    "nextRun" : "2025-06-10T19:30:00.000+00:00",
+    "lastRun" : "2025-06-10T19:00:00.106+00:00"
+  }, {
+    "id" : "78ef7dd3-686d-4ad5-8ef3-9d8399992e88",
+    "name" : "Cleanup unused docker blobs from nexus",
+    "type" : "assetBlob.cleanup",
+    "message" : "Cleanup unused docker blobs from nexus",
+    "currentState" : "WAITING",
+    "lastRunResult" : "OK",
+    "nextRun" : "2025-06-10T19:30:00.000+00:00",
+    "lastRun" : "2025-06-10T19:00:00.131+00:00"
+  }, {
+    "id" : "f2752186-a6a1-48ab-b2c7-84c930b200cd",
+    "name" : "Cleanup unused apt blobs from nexus",
+    "type" : "assetBlob.cleanup",
+    "message" : "Cleanup unused apt blobs from nexus",
+    "currentState" : "WAITING",
+    "lastRunResult" : "OK",
+    "nextRun" : "2025-06-10T19:30:00.000+00:00",
+    "lastRun" : "2025-06-10T19:00:00.092+00:00"
+  }, {
+    "id" : "79a34a6c-d938-40cb-8274-75d0753de12d",
+    "name" : "Cleanup unused maven2 blobs from nexus",
+    "type" : "assetBlob.cleanup",
+    "message" : "Cleanup unused maven2 blobs from nexus",
+    "currentState" : "WAITING",
+    "lastRunResult" : "OK",
+    "nextRun" : "2025-06-10T19:30:00.000+00:00",
+    "lastRun" : "2025-06-10T19:00:00.003+00:00"
+  }, {
+    "id" : "f063a0d4-b9e3-4369-ba53-45cadf97e310",
+    "name" : "Malicious Risk On Disk - Auto enable Health Check for proxy repositories on startup",
+    "type" : "malicious-risk-on-disk-auto-enable-rhc",
+    "message" : "Auto enabling Health Check for all proxy repositories",
+    "currentState" : "WAITING",
+    "lastRunResult" : "OK",
+    "nextRun" : "2025-06-11T17:57:12.004+00:00",
+    "lastRun" : "2025-06-10T17:57:12.016+00:00"
+  }, {
+    "id" : "f5932181-6138-4b91-8097-35ad9be6bb07",
+    "name" : "Cleanup unused npm blobs from nexus",
+    "type" : "assetBlob.cleanup",
+    "message" : "Cleanup unused npm blobs from nexus",
+    "currentState" : "WAITING",
+    "lastRunResult" : "OK",
+    "nextRun" : "2025-06-10T19:30:00.000+00:00",
+    "lastRun" : "2025-06-10T19:00:00.065+00:00"
+  }, {
+    "id" : "849db25a-cb4a-40e3-950d-4955d67c4724",
+    "name" : "Cleanup unused pypi blobs from nexus",
+    "type" : "assetBlob.cleanup",
+    "message" : "Cleanup unused pypi blobs from nexus",
+    "currentState" : "WAITING",
+    "lastRunResult" : "OK",
+    "nextRun" : "2025-06-10T19:30:00.000+00:00",
+    "lastRun" : "2025-06-10T19:00:00.055+00:00"
+  }, {
+    "id" : "829fe8a2-51c8-474e-a9b0-cdfc8f22f77f",
+    "name" : "Cleanup service",
+    "type" : "repository.cleanup",
+    "message" : null,
+    "currentState" : "WAITING",
+    "lastRunResult" : null,
+    "nextRun" : "2025-06-11T01:00:00.000+00:00",
+    "lastRun" : null
+  }, {
+    "id" : "6042a6da-93bd-48d9-8579-b0159674c858",
+    "name" : "Cleanup unused nuget blobs from nexus",
+    "type" : "assetBlob.cleanup",
+    "message" : "Cleanup unused nuget blobs from nexus",
+    "currentState" : "WAITING",
+    "lastRunResult" : "OK",
+    "nextRun" : "2025-06-10T19:30:00.000+00:00",
+    "lastRun" : "2025-06-10T19:00:00.036+00:00"
+  } ],
+  "continuationToken" : null
+}

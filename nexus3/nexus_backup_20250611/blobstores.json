@@ -1,0 +1,137 @@
+[ {
+  "softQuota" : null,
+  "name" : "default",
+  "type" : "File",
+  "unavailable" : false,
+  "blobCount" : 826,
+  "totalSizeInBytes" : 1153324525,
+  "availableSpaceInBytes" : 80574234624
+}, {
+  "softQuota" : null,
+  "name" : "docker-proxy",
+  "type" : "File",
+  "unavailable" : false,
+  "blobCount" : 0,
+  "totalSizeInBytes" : 0,
+  "availableSpaceInBytes" : 80574234624
+}, {
+  "softQuota" : null,
+  "name" : "pypi-proxy",
+  "type" : "File",
+  "unavailable" : false,
+  "blobCount" : 0,
+  "totalSizeInBytes" : 0,
+  "availableSpaceInBytes" : 80574234624
+}, {
+  "softQuota" : null,
+  "name" : "npm-proxy",
+  "type" : "File",
+  "unavailable" : false,
+  "blobCount" : 0,
+  "totalSizeInBytes" : 0,
+  "availableSpaceInBytes" : 80574234624
+}, {
+  "softQuota" : null,
+  "name" : "maven-proxy",
+  "type" : "File",
+  "unavailable" : false,
+  "blobCount" : 0,
+  "totalSizeInBytes" : 0,
+  "availableSpaceInBytes" : 80574234624
+}, {
+  "softQuota" : null,
+  "name" : "apt-proxy",
+  "type" : "File",
+  "unavailable" : false,
+  "blobCount" : 4,
+  "totalSizeInBytes" : 358666,
+  "availableSpaceInBytes" : 80574234624
+}, {
+  "softQuota" : null,
+  "name" : "yum-proxy",
+  "type" : "File",
+  "unavailable" : false,
+  "blobCount" : 2,
+  "totalSizeInBytes" : 2997112,
+  "availableSpaceInBytes" : 80574234624
+}, {
+  "softQuota" : null,
+  "name" : "helm-proxy",
+  "type" : "File",
+  "unavailable" : false,
+  "blobCount" : 0,
+  "totalSizeInBytes" : 0,
+  "availableSpaceInBytes" : 80574234624
+}, {
+  "softQuota" : null,
+  "name" : "go-proxy",
+  "type" : "File",
+  "unavailable" : false,
+  "blobCount" : 0,
+  "totalSizeInBytes" : 0,
+  "availableSpaceInBytes" : 80574234624
+}, {
+  "softQuota" : null,
+  "name" : "nuget-proxy",
+  "type" : "File",
+  "unavailable" : false,
+  "blobCount" : 0,
+  "totalSizeInBytes" : 0,
+  "availableSpaceInBytes" : 80574234624
+}, {
+  "softQuota" : null,
+  "name" : "composer-proxy",
+  "type" : "File",
+  "unavailable" : false,
+  "blobCount" : 0,
+  "totalSizeInBytes" : 0,
+  "availableSpaceInBytes" : 80574234624
+}, {
+  "softQuota" : null,
+  "name" : "ruby-proxy",
+  "type" : "File",
+  "unavailable" : false,
+  "blobCount" : 0,
+  "totalSizeInBytes" : 0,
+  "availableSpaceInBytes" : 80574234624
+}, {
+  "softQuota" : null,
+  "name" : "conda-proxy",
+  "type" : "File",
+  "unavailable" : false,
+  "blobCount" : 0,
+  "totalSizeInBytes" : 0,
+  "availableSpaceInBytes" : 80574234624
+}, {
+  "softQuota" : null,
+  "name" : "raw-proxy",
+  "type" : "File",
+  "unavailable" : false,
+  "blobCount" : 0,
+  "totalSizeInBytes" : 0,
+  "availableSpaceInBytes" : 80574234624
+}, {
+  "softQuota" : null,
+  "name" : "docker-store",
+  "type" : "File",
+  "unavailable" : false,
+  "blobCount" : 0,
+  "totalSizeInBytes" : 0,
+  "availableSpaceInBytes" : 80574234624
+}, {
+  "softQuota" : null,
+  "name" : "apt-store",
+  "type" : "File",
+  "unavailable" : false,
+  "blobCount" : 0,
+  "totalSizeInBytes" : 0,
+  "availableSpaceInBytes" : 80574234624
+}, {
+  "softQuota" : null,
+  "name" : "yum-store",
+  "type" : "File",
+  "unavailable" : false,
+  "blobCount" : 0,
+  "totalSizeInBytes" : 0,
+  "availableSpaceInBytes" : 80574234624
+} ]
