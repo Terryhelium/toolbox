@@ -1,0 +1,157 @@
+root@nbdag-ntp:/docker/nexus3# ./system_detection.sh
+=== 系统环境检测脚本 ===
+执行时间: Wed Jun 11 09:53:18 PM CST 2025
+
+=== 操作系统信息 ===
+PRETTY_NAME="Ubuntu 24.04.2 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.2 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
+
+=== 系统架构 ===
+x86_64
+
+=== CPU 信息 ===
+Architecture:                         x86_64
+CPU(s):                               16
+On-line CPU(s) list:                  0-15
+Model name:                           Intel(R) Xeon(R) Gold 5218 CPU @ 2.30GHz
+BIOS Model name:                      Intel(R) Xeon(R) Gold 5218 CPU @ 2.30GHz  CPU @ 2.3GHz
+NUMA node0 CPU(s):                    0-15
+
+=== 内存信息 ===
+               total        used        free      shared  buff/cache   available
+Mem:            31Gi       2.4Gi        26Gi       1.3Mi       3.3Gi        28Gi
+Swap:          1.9Gi          0B       1.9Gi
+
+=== 磁盘使用情况 ===
+Filesystem                         Size  Used Avail Use% Mounted on
+tmpfs                              3.2G  1.4M  3.2G   1% /run
+/dev/mapper/ubuntu--vg-ubuntu--lv  510G  7.0G  483G   2% /
+tmpfs                               16G     0   16G   0% /dev/shm
+tmpfs                              5.0M     0  5.0M   0% /run/lock
+/dev/sda2                          1.8G  189M  1.5G  12% /boot
+tmpfs                              3.2G   12K  3.2G   1% /run/user/0
+overlay                            510G  7.0G  483G   2% /var/lib/docker/overlay2/33ab20d7cce0167f97aa612fac0dab12ce6ec3002cf7f04ead8941a32769df6c/merged
+
+=== 网络接口信息 ===
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    inet 127.0.0.1/8 scope host lo
+2: ens160: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    inet 10.19.26.136/27 brd 10.19.26.159 scope global ens160
+3: docker0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default
+    inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
+38: br-9998df9aa5f0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default
+    inet 172.18.0.1/16 brd 172.18.255.255 scope global br-9998df9aa5f0
+41: vethdd1d7ec@if2: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue master br-9998df9aa5f0 state UP group default
+
+=== Docker 版本 (如果安装) ===
+Docker version 28.1.1, build 4eba377
+docker-compose 未安装
+
+=== Python 版本 (如果安装) ===
+Python 3.12.3
+pip3 未安装
+
+=== Node.js 版本 (如果安装) ===
+Node.js 未安装
+
+=== Java 版本 (如果安装) ===
+Java 未安装
+
+=== Maven 版本 (如果安装) ===
+Maven 未安装
+
+=== Gradle 版本 (如果安装) ===
+Gradle 未安装
+
+=== Git 版本 (如果安装) ===
+git version 2.43.0
+
+=== 当前 APT 源配置 ===
+--- /etc/apt/sources.list ---
+--- /etc/apt/sources.list.d/ 目录内容 ---
+total 36
+drwxr-xr-x 2 root root 4096 May 27 15:46 .
+drwxr-xr-x 9 root root 4096 Apr 28 10:42 ..
+-rw-r--r-- 1 root root  112 May 27 15:46 docker.list
+-rw-r--r-- 1 root root   88 Feb 25 16:03 local-debian-zabbix.list
+-rw-r--r-- 1 root root  372 Jan 20 11:16 local-ubuntu.list
+-rw-r--r-- 1 root root  606 Jul 19  2024 ubuntu.sources
+-rw-r--r-- 1 root root  383 Jul 19  2024 ubuntu.sources.bak
+-rw-r--r-- 1 root root 2552 Apr 23  2024 ubuntu.sources.curtin.orig
+-rw-r--r-- 1 root root   57 Apr 28 11:01 zabbix.list
+=== /etc/apt/sources.list.d/docker.list ===
+deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu   noble stable
+=== /etc/apt/sources.list.d/local-debian-zabbix.list ===
+deb [trusted=yes] http://10.19.26.204/zabbix/7.0/ubuntu/pool/main/z ./ubuntu noble main
+=== /etc/apt/sources.list.d/local-ubuntu.list ===
+deb [arch=amd64] http://10.19.26.204/ubuntu noble main restricted universe multiverse
+deb [arch=amd64] http://10.19.26.204/ubuntu noble-updates main restricted universe multiverse
+deb [arch=amd64] http://10.19.26.204/ubuntu noble-backports main restricted universe multiverse
+deb [arch=amd64] http://10.19.26.204/ubuntu noble-security main restricted universe multiverse
+=== /etc/apt/sources.list.d/zabbix.list ===
+deb https://repo.zabbix.com/zabbix/7.0/ubuntu noble main
+=== /etc/apt/sources.list.d/ubuntu.sources ===
+Types: deb
+URIs: http://mirrors.tuna.tsinghua.edu.cn/ubuntu/
+Suites: noble noble-updates noble-security
+Components: main restricted universe multiverse
+Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
+
+=== Nexus3 服务状态 ===
+--- Docker 容器状态 ---
+3fd3798c5b5a   sonatype/nexus3:latest   "/opt/sonatype/nexus…"   About an hour ago   Up 49 minutes (healthy)   0.0.0.0:8083-8085->8083-8085/tcp, [::]:8083-8085->8083-8085/tcp, 0.0.0.0:8082->8081/tcp, [::]:8082->8081/tcp   nexus3
+
+--- Docker 网络信息 ---
+NETWORK ID     NAME                   DRIVER    SCOPE
+66001365bb78   bridge                 bridge    local
+40621549b90d   host                   host      local
+9998df9aa5f0   nexus3_nexus-network   bridge    local
+d5f3caf24937   none                   null      local
+
+=== 网络连通性测试 ===
+测试国内镜像源连通性...
+PING mirrors.aliyun.com.w.alikunlun.com (122.225.209.249) 56(84) bytes of data.
+64 bytes from 122.225.209.249: icmp_seq=1 ttl=50 time=11.5 ms
+64 bytes from 122.225.209.249: icmp_seq=2 ttl=50 time=11.1 ms
+
+--- mirrors.aliyun.com.w.alikunlun.com ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 11.059/11.269/11.480/0.210 ms
+阿里云镜像: 连通
+PING bfdmirrors.s.tuna.tsinghua.edu.cn (101.6.15.130) 56(84) bytes of data.
+64 bytes from 101.6.15.130: icmp_seq=1 ttl=39 time=44.9 ms
+64 bytes from 101.6.15.130: icmp_seq=2 ttl=39 time=44.1 ms
+
+--- bfdmirrors.s.tuna.tsinghua.edu.cn ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1740ms
+rtt min/avg/max/mdev = 44.112/44.499/44.887/0.387 ms
+清华镜像: 连通
+PING mirrors.ustc.edu.cn (202.141.160.110) 56(84) bytes of data.
+64 bytes from mirrors.ustc.edu.cn (202.141.160.110): icmp_seq=1 ttl=47 time=13.9 ms
+64 bytes from mirrors.ustc.edu.cn (202.141.160.110): icmp_seq=2 ttl=47 time=14.2 ms
+
+--- mirrors.ustc.edu.cn ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 13.940/14.091/14.243/0.151 ms
+中科大镜像: 连通
+PING registry.npmmirror.com.w.cdngslb.com (122.226.64.83) 56(84) bytes of data.
+64 bytes from 122.226.64.83: icmp_seq=1 ttl=46 time=10.0 ms
+64 bytes from 122.226.64.83: icmp_seq=2 ttl=46 time=10.5 ms
+
+--- registry.npmmirror.com.w.cdngslb.com ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 10.001/10.269/10.537/0.268 ms
+淘宝NPM镜像: 连通
+
+=== 检测完成 ===
