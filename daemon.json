@@ -1,0 +1,8 @@
+{
+  "registry-mirrors": [
+    "http://10.19.26.136:8083"
+  ],
+  "insecure-registries": [
+    "10.19.26.136:8083"
+  ]
+}

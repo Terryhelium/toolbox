@@ -1,0 +1,2 @@
+# Zabbix 7.0 Repository via Nexus3 Proxy
+deb [trusted=yes] http://10.19.26.136:8082/repository/zabbix-7-ubuntu-24.04 noble main

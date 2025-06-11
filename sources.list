@@ -1,0 +1,5 @@
+# Ubuntu Noble - Nexus3代理 (临时配置)
+deb http://10.19.26.136:8082/repository/ubuntu-noble-aliyun-proxy/ noble main restricted universe multiverse
+deb http://10.19.26.136:8082/repository/ubuntu-noble-aliyun-proxy/ noble-updates main restricted universe multiverse
+deb http://10.19.26.136:8082/repository/ubuntu-noble-aliyun-proxy/ noble-backports main restricted universe multiverse
+deb http://10.19.26.136:8082/repository/ubuntu-noble-aliyun-proxy/ noble-security main restricted universe multiverse
