@@ -1,0 +1,24 @@
+# 配置 Zabbix 仓库
+sudo tee /etc/yum.repos.d/zabbix_nexus.repo <<'EOF'
+[zabbix-nexus]
+name=Zabbix 7 (RHEL8 Compatible)
+baseurl=http://10.19.26.136:8082/repository/zabbix-rhel8/
+enabled=1
+gpgcheck=0
+EOF
+
+# 配置 Kylin 仓库（替换原厂源）
+sudo tee /etc/yum.repos.d/kylin_nexus.repo <<'EOF'
+[kylin-nexus]
+name=Kylin V10SP3 Nexus Mirror
+baseurl=http://10.19.26.136:8082/repository/kylin-v10sp3/
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-kylin
+EOF
+
+# 禁用原厂仓库（可选）
+sudo mv /etc/yum.repos.d/kylin_x86_64.repo{,.bak} 2>/dev/null
+
+# 清理缓存并验证
+sudo yum clean all && sudo yum makecache
