@@ -1,0 +1,13 @@
+curl -u admin:nbdag@2025 -X POST "http://10.19.26.136:8082/service/rest/v1/repositories/yum/proxy" \
+-H "Content-Type: application/json" -d '{
+  "name": "almalinux8-appstream",
+  "online": true,
+  "storage": {"blobStoreName": "default", "strictContentTypeValidation": true},
+  "proxy": {
+    "remoteUrl": "https://mirrors.aliyun.com/almalinux/8/AppStream/x86_64/os/",
+    "contentMaxAge": 1440,
+    "metadataMaxAge": 1440
+  },
+  "negativeCache": {"enabled": true, "timeToLive": 1440},
+  "httpClient": {"blocked": false, "autoBlock": true}
+}'
